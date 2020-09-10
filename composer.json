@@ -1,0 +1,23 @@
+{
+    "name": "tencentcloud/tic",
+    "description": "TencentCloudApi php sdk tic",
+    "type": "library",
+    "homepage": "https://github.com/tencentcloud-sdk-php/tic",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "tencentcloudapi",
+            "email": "tencentcloudapi@tencent.com",
+            "homepage": "https://github.com/tencentcloud-sdk-php/tic",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "tencentcloud/common": "3.0.248"
+    },
+    "autoload": {
+        "psr-4": {
+            "TencentCloud\\": "./src/TencentCloud"
+        }
+    }
+}
